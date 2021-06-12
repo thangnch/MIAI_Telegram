@@ -1,0 +1,15 @@
+1. Tạo account Tele
+
+2. Tạo bot với BotFather
+
+3. Tạo group chat và lấy ID
+- Tạo cảnh báo : khi có cảnh báo gửi cho người A, người B... thì bạn phải có chat_id của người A, người B
+- ID của Thắng: 1246123900
+
+https://api.telegram.org/bot[TOKEN]/getUpdates
+
+https://api.telegram.org/bot[TOKEN]/sendMessage?chat_id=[CHAT_ID]&text=[MY_MESSAGE_TEXT]
+
+4. Cài đặt thư viện python-telegram-bot
+
+5. Viết code send text và ảnh
